@@ -1,0 +1,13 @@
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.bg-primary {
+  background: url('img/pattern.png') !important;
+  height: 860px;
+}
+
+.fixed-top {
+    padding-left: 40px;
+    padding-right: 50px;
+}

@@ -8,7 +8,7 @@
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
                 $('html, body').animate({
-                    scrollTop: (target.offset().top - 54)
+                    scrollTop: (target.offset().top - 96)
                 }, 1000, "easeInOutExpo");
                 return false;
             }
@@ -18,7 +18,7 @@
     // Activate scrollspy to add active class to navbar items on scroll
     $('body').scrollspy({
         target: '#mainNav',
-        offset: 54
+        offset: 96
     });
 
     // Closes responsive menu when a link is clicked
