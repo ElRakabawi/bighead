@@ -28,23 +28,41 @@
 
     // Show service on hover and hide the rest
     $('.hov-box-one').hide();
-    $('.hov-box-two').hide();
     $('.hov-box-three').hide();
 
     $('.first').hover(
       function () {
-        $('.hov-box-one').slideToggle();
-      });
-
-    $('.second').hover(
-      function () {
         $('.hov-box-two').slideToggle();
+        $('.hov-box-one').slideToggle();
       });
 
     $('.third').hover(
       function () {
+        $('.hov-box-two').slideToggle();
         $('.hov-box-three').slideToggle();
       });
 
+
+      // Clients slider built on slick
+			$('.clients-slider').slick({
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1000,
+				arrows: false,
+				dots: false,
+					pauseOnHover: false,
+					responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 3
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 2
+					}
+				}]
+			});
 
 })(jQuery); // End of use strict
