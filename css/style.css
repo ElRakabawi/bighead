@@ -7,6 +7,7 @@
 
 .bg-dark.scrolled {
   background: url('img/nav-pattern.png') !important;
+  transition: all 0.2s east-in-out;
 }
 
 .bg-primary {
@@ -56,16 +57,35 @@ h4 {
 
 #contact {
   background: url('img/contact-pattern.png');
-  height: 670px;
+  height: 730px;
+  transition: all 0.3s ease-in-out;
 }
 
 .approach {
   font-weight: 900;
   color: #eee;
+  font-size: 48px;
 }
 
 .cont {
   color: #fff;
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  color: #ccc;
+  border-color: #ccc;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  font-family: 'Muli', cursive;
+  width: 240px;
+  margin-top: 90px;
+}
+
+.btn-outline-primary:hover {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
 }
 
 /*
