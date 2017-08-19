@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
+
+
 .bg-dark {
-  background-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .bg-primary {
@@ -10,4 +13,22 @@
 .fixed-top {
     padding-left: 40px;
     padding-right: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    transition: all 0.4s ease-in-out;
+}
+
+.text-center {
+    position: sticky;
+    top: 45%;
+}
+
+h1 {
+  font-family: 'Muli', cursive;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Muli', cursive;
 }
