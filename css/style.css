@@ -5,6 +5,10 @@
   background-color: rgba(0, 0, 0, 0.02) !important;
 }
 
+.bg-dark.scrolled {
+  background: url('img/nav-pattern.png') !important;
+}
+
 .bg-primary {
   background: url('img/pattern.png') !important;
   height: 860px;

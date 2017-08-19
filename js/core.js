@@ -26,6 +26,14 @@
         $('.navbar-collapse').collapse('hide');
     });
 
+    // Changes navbar background on scroll
+    $(function () {
+      $(document).scroll(function () {
+	       var $nav = $(".bg-dark");
+	       $nav.toggleClass('scrolled', $(this).scrollTop() > 764);
+	     });
+     });
+
     // Show service on hover and hide the rest
     $('.hov-box-one').hide();
     $('.hov-box-three').hide();
