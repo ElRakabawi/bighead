@@ -26,4 +26,25 @@
         $('.navbar-collapse').collapse('hide');
     });
 
+    // Show service on hover and hide the rest
+    $('.hov-box-one').hide();
+    $('.hov-box-two').hide();
+    $('.hov-box-three').hide();
+
+    $('.first').hover(
+      function () {
+        $('.hov-box-one').slideToggle();
+      });
+
+    $('.second').hover(
+      function () {
+        $('.hov-box-two').slideToggle();
+      });
+
+    $('.third').hover(
+      function () {
+        $('.hov-box-three').slideToggle();
+      });
+
+
 })(jQuery); // End of use strict
