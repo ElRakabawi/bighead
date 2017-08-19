@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700'); /* Main font */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900');  /* Main font */
 
 /* Basic styling */
 .bg-dark {
@@ -37,16 +37,42 @@ p {
   font-family: 'Muli', cursive;
 }
 
+h4 {
+  color: #610544;
+}
+
 .lead {
    opacity: 0.7;
 }
 
-.cl {
-  margin-bottom: 40px;
+.first, .second, .third {
+  cursor: pointer;
 }
 
+.cl {
+  margin-bottom: 40px;
+  color: #610544;
+}
 
-/* Slick slider */
+#contact {
+  background: url('img/contact-pattern.png');
+  height: 670px;
+}
+
+.approach {
+  font-weight: 900;
+  color: #eee;
+}
+
+.cont {
+  color: #fff;
+}
+
+/*
+
+Slick slider
+
+*/
 .slick-slide {
     margin: 0px 20px;
 }
